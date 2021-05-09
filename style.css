@@ -50,6 +50,7 @@ p {
     margin: 0px;
 }
 
+
 .profile-card {
     background: #FFB300;
     width: 56px;
@@ -604,3 +605,5 @@ p {
         opacity: 0;
     }
 }
+
+/* the section of portfolio */
