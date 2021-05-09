@@ -108,8 +108,8 @@ p {
     border: 4px solid #FFFFFF;
     -webkit-transform: scale(0);
     transform: scale(0);
-    background: -webkit-linear-gradient(top, #2196F3 0%, #2196F3 50%, #FFC107 50%, #FFC107 100%);
-    background: linear-gradient(#2196F3 0%, #2196F3 50%, #FFC107 50%, #FFC107 100%);
+    background: -webkit-linear-gradient(top, #f32121 0%, #f32121 50%, #ffffff 50%, #ffffff 100%);
+    background: linear-gradient(#f32121 0%, #f32121 50%, #ffffff 50%, #ffffff 100%);
     -webkit-border-radius: 50%;
     border-radius: 50%;
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
