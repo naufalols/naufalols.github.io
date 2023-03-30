@@ -110,6 +110,8 @@
                 </div>
                 <div class="row portfolio">
                     <h5>Portfolio</h5>
+                    <div class="overflow-auto overflow-portfolio" style="max-height:400px">
+                    </div>
                 </div>
             </div>
         </div>
@@ -224,7 +226,7 @@
             },
         ]
         for (let i = 0; i < portfolio.length; i++) {
-            $('.row.portfolio').append(
+            $('.row.portfolio overflow-portfolio').append(
                 '<div class="col-12 mt-2">' +
                 '<div class="card p-2 border border-2 border-primary border-opacity-10">' +
                 '<span class="rating text-end">' + portfolio[i].content + '</span>' +
