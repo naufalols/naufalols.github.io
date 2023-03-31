@@ -50,6 +50,28 @@
         .card:hover {
             box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
         }
+        
+        .shadows {
+          position: absolute;
+          left: 0;
+          z-index: 100;
+          width: 100%;
+          height: 10px;
+          background: red;
+        }
+
+        .shadows--top {
+          top: 0;
+          background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.35), transparent);
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.35), transparent);
+          opacity: 0;
+        }
+
+        .shadows--bottom {
+          bottom: 0;
+          background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.35), transparent);
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), transparent);
+        }
     </style>
 </head>
 
@@ -110,6 +132,8 @@
                 </div>
                 <div class="row portfolio">
                     <h5>Portfolio</h5>
+                    <div class="shadows shadows--top"></div>
+                    <div class="shadows shadows--bottom"></div>
                     <div class="overflow-auto overflow-portfolio" style="max-height:400px">
                     </div>
                 </div>
@@ -251,6 +275,19 @@
 
         $('#message').keyup(function () {
             $('#send').html('Send');
+        });
+    </script>
+    <script>
+        var content = document.querySelector('.overflow-portfolio'),
+        wrapper = document.querySelector('.portfolio'),
+        shadowTop = document.querySelector('.shadow--top'),
+        shadowBottom = document.querySelector('.shadow--bottom'),
+        contentScrollHeight = content.scrollHeight - wrapper.offsetHeight;
+
+        content.addEventListener('scroll', function(){
+          var currentScroll = this.scrollTop / (contentScrollHeight);  
+          shadowTop.style.opacity = currentScroll;
+          shadowBottom.style.opacity = 1 - currentScroll;
         });
     </script>
 </body>
