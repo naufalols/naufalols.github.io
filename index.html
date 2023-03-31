@@ -132,8 +132,6 @@
                 </div>
                 <div class="row portfolio">
                     <h5>Portfolio</h5>
-                    <div class="shadows shadows--top"></div>
-                    <div class="shadows shadows--bottom"></div>
                     <div class="overflow-auto overflow-portfolio" style="max-height:400px">
                     </div>
                 </div>
@@ -277,19 +275,7 @@
             $('#send').html('Send');
         });
     </script>
-    <script>
-        var content = document.querySelector('.overflow-portfolio'),
-        wrapper = document.querySelector('.portfolio'),
-        shadowTop = document.querySelector('.shadow--top'),
-        shadowBottom = document.querySelector('.shadow--bottom'),
-        contentScrollHeight = content.scrollHeight - wrapper.offsetHeight;
-
-        content.addEventListener('scroll', function(){
-          var currentScroll = this.scrollTop / (contentScrollHeight);  
-          shadowTop.style.opacity = currentScroll;
-          shadowBottom.style.opacity = 1 - currentScroll;
-        });
-    </script>
+    
 </body>
 
 </html>
