@@ -3,299 +3,209 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naufal Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <style>
-        .stats {
-            background: #f2f5f8 !important;
-            color: #000 !important;
-        }
-
-        .articles {
-            font-size: 10px;
-            color: #a1aab9;
-        }
-
-        .number1 {
-            font-weight: 500;
-        }
-
-        .followers {
-            font-size: 10px;
-            color: #a1aab9;
-        }
-
-        .number2 {
-            font-weight: 500;
-        }
-
-        .rating {
-            font-size: 10px;
-            color: #a1aab9;
-        }
-
-        .number3 {
-            font-weight: 500;
-        }
-
-        .card {
-            -moz-transition: all .2s ease-in;
-            -o-transition: all .2s ease-in;
-            -webkit-transition: all .2s ease-in;
-        }
-
-        .card:hover {
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-        }
-        
-        .shadows {
-          position: absolute;
-          left: 0;
-          z-index: 100;
-          width: 100%;
-          height: 10px;
-          background: red;
-        }
-
-        .shadows--top {
-          top: 0;
-          background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.35), transparent);
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.35), transparent);
-          opacity: 0;
-        }
-
-        .shadows--bottom {
-          bottom: 0;
-          background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.35), transparent);
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), transparent);
-        }
-    </style>
+    <title>Naufal — Software Developer</title>
+    <meta name="description"
+        content="Naufal is a software developer specialized in Laravel, building websites and backend systems.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container my-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-3 p-2">
-                <div class="card p-3">
-                    <div class="align-items-center">
-                        <div class="image text-center mb-2">
-                            <img src="profile-pic.png"
-                                class="img-fluid rounded" width="200">
-                        </div>
-                        <div class="ml-3 w-100">
-                            <h4 class="mb-0 mt-0">Naufal</h4>
-                            <span>Software Developer</span>
-                            <div class="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
-                                <p class="rating">I am a Software Developer specialized in Laravel, currently exploring the advanced programming of Backend. Eager to learn and try any kind of new opportunities and new experiences in Software Development.</p>
-                            </div>
-                            <div class="button mt-2 d-flex flex-row align-items-center">
-                                <a class="btn btn-sm btn-outline-primary w-100" href="mailto:muh.naufal@hotmail.com">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
-                                        <path
-                                            d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
-                                    </svg>
-                                    Mail
-                                </a>
-                                <a class="btn btn-sm btn-primary w-100 ml-2"
-                                    href="https://www.linkedin.com/in/naufal-muhammad/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
-                                        class="bi bi-linkedin" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
-                                        </path>
-                                    </svg> Follow
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <main class="page">
+        <aside class="profile reveal">
+            <img class="avatar" src="profile-pic.png" alt="Portrait of Naufal" width="132" height="132">
+            <p class="eyebrow">Open to new opportunities</p>
+            <h1 class="name">Naufal<em>.</em></h1>
+            <p class="role">Software Developer</p>
+            <p class="bio">
+                I am a Software Developer specialized in Laravel, currently exploring the advanced programming of
+                Backend. Eager to learn and try any kind of new opportunities and new experiences in Software
+                Development.
+            </p>
+            <div class="links">
+                <a class="btn btn--solid" href="mailto:muh.naufal@hotmail.com">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                    Email me
+                </a>
+                <a class="btn btn--ghost" href="https://www.linkedin.com/in/muhammad-naufal-200ok/" target="_blank"
+                    rel="noopener">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                    LinkedIn
+                </a>
+                <a class="btn btn--ghost" href="https://github.com/naufalols" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    GitHub
+                </a>
             </div>
-            <div class="col-lg-6 p-2">
-                <div class="row">
-                    <div class="col-sm-12 mb-3">
-                        <label for="exampleDataList" class="form-label fw-semibold">Send me an email</label>
-                        <textarea class="form-control" list="datalistOptions" id="message"
-                            placeholder="Type something..."></textarea>
-                    </div>
-                    <div class="col-sm">
-                        <button id="send" class="btn btn-sm btn-primary float-end">Send</button>
-                    </div>
+        </aside>
+
+        <div class="content">
+            <section class="section reveal" id="work">
+                <div class="section-head">
+                    <h2>Selected work</h2>
+                    <span id="project-count"></span>
                 </div>
-                <div class="text-primary">
-                    <hr>
+                <p class="group-label">Featured projects</p>
+                <ol class="projects" id="projects-featured"></ol>
+                <p class="group-label">Kalla Institute</p>
+                <ol class="projects" id="projects-kalla"></ol>
+                <p class="group-label">Client sites via Bikin.Website</p>
+                <ol class="projects" id="projects-clients"></ol>
+            </section>
+
+            <section class="section namecard reveal" id="card">
+                <div class="section-head">
+                    <h2>Name card</h2>
+                    <span>PNG · 2100×1200</span>
                 </div>
-                <div class="row portfolio">
-                    <h5>Portfolio</h5>
-                    <div class="overflow-auto overflow-portfolio" style="max-height:400px">
-                    </div>
+                <img class="namecard-img" src="naufal-card.png" width="2100" height="1200" loading="lazy"
+                    alt="Naufal's name card: Software Developer, email, LinkedIn, GitHub and a QR code to naufalols.github.io">
+                <div class="contact-row">
+                    <span class="hint">Scan the QR code to open this portfolio.</span>
+                    <a class="btn btn--solid" href="naufal-card.png" download="Naufal-Name-Card.png">
+                        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                            <path
+                                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                        </svg>
+                        Download card
+                    </a>
                 </div>
-            </div>
+            </section>
+
+            <section class="section contact reveal" id="contact">
+                <div class="section-head">
+                    <h2>Say hello</h2>
+                    <span>muh.naufal@hotmail.com</span>
+                </div>
+                <label for="message" class="group-label">Send me an email</label>
+                <textarea id="message" placeholder="Hi Naufal, I'd like to talk about…"></textarea>
+                <div class="contact-row">
+                    <span class="hint" id="hint">Opens in your email app.</span>
+                    <button id="send" class="btn btn--solid" type="button">Send message</button>
+                </div>
+            </section>
         </div>
-    </div>
-    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
-                viewBox="0 0 16 16">
-                <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-            </svg>
-            <small>Copyright &copy; <a class="text-white" href="https://github.com/naufalols">naufalols.github.io</a></small>
-        </div>
+    </main>
+
+    <footer class="footer">
+        <span>&copy; <span id="year"></span> Naufal</span>
+        <a href="https://github.com/naufalols">naufalols.github.io</a>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
-        integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
     <script>
-        const portfolio = [
-            {
-                link: 'https://bikin.website',
-                title: 'Bikin.Website',
-                content: 'Built with WordPress and integrated with WHMCS API'
-            },
-            {
-                link: 'https://m-barber.com',
-                title: 'm-barber.com',
-                content: 'Built with CodeIgniter and still working in it'
-            },
-            {
-                link: 'https://larissatalent.id',
-                title: 'Larissa Talent',
-                content: 'Built with Laravel'
-            },
-            {
-                link: 'https://nizhamiyyah.sch.id/',
-                title: 'Perguruan Islam Nizhamiyyah',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://edukasikesehatanseksual.my.id/',
-                title: 'Sekawan Sehat Seks',
-                content: 'Built with WordPress framework'
-            },
-            // {
-            //     link: 'https://kemitraan.larissatalent.id',
-            //     title: 'Sistem Kemitraan Larissa',
-            //     content: 'Built with Laravel'
-            // },
-            // {
-            //     link: 'https://3lcosmetics.com',
-            //     title: '3L Cosmetics',
-            //     content: 'Built with Laravel'
-            // },
-            {
-                link: 'https://karir.qhomemart.com/',
-                title: 'Qhomemart Karir',
-                content: 'Built with Laravel and integrated with HR Apps'
-            },
-            {
-                link: 'https://sewamobiltimikapapua.com/',
-                title: 'Noufal Rent Car',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://delovelyclinic.co.id/',
-                title: 'Delovely in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://www.kanton.co.id/',
-                title: 'Kanton in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://jahitind.com/',
-                title: 'JahitInd in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://layz-motor.com/',
-                title: 'Layz Motor in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://sustainandfair.com',
-                title: 'Sustain & Fair in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://studiolangit.com',
-                title: 'Studio Langit in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://kreditmotorhondatangerang.com',
-                title: 'Honda Ramayana in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'http://resep-ibu.com/',
-                title: 'Resep Ibu in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://www.padisehatindonesia.com/',
-                title: 'Padi Sehat in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://www.bumantara.co.id/',
-                title: 'Bumantara in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://introduksitalent.com/',
-                title: 'Introduksi Talent in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://lesprivatsmart.com/',
-                title: 'Les Privat in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-            {
-                link: 'https://waffiofficial.com/',
-                title: 'Waffi Car in Bikin.Website',
-                content: 'Built with WordPress framework'
-            },
-        ]
-        for (let i = 0; i < portfolio.length; i++) {
-            $('.row.portfolio .overflow-portfolio').append(
-                '<div class="col-12 mt-2">' +
-                '<div class="card p-2 border border-2 border-primary border-opacity-10">' +
-                '<span class="rating text-end">' + portfolio[i].content + '</span>' +
-                '<a href="' + portfolio[i].link + '" class="text-primary stretched-link text-decoration-none" target="_blank">' + portfolio[i].title + '</a>' +
-                '</div>' +
-                '</div>'
-            );
+        const featured = [
+            { link: 'https://demo.bitind.my.id/', title: 'POSBeck — Point of Sale', content: 'Live demo of a POS system', tag: 'CodeIgniter' },
+            { link: 'https://bikin.website', title: 'Bikin.Website', content: 'Integrated with WHMCS API', tag: 'WordPress' },
+            { link: 'https://m-barber.com', title: 'm-barber.com', content: 'Still in active development', tag: 'CodeIgniter' },
+            { link: 'https://larissatalent.id', title: 'Larissa Talent', content: 'Talent agency platform', tag: 'Laravel' },
+            { link: 'https://karir.qhomemart.com/', title: 'Qhomemart Karir', content: 'Integrated with HR apps', tag: 'Laravel' },
+            { link: 'https://nizhamiyyah.sch.id/', title: 'Perguruan Islam Nizhamiyyah', content: 'School website', tag: 'WordPress' },
+            { link: 'https://edukasikesehatanseksual.my.id/', title: 'Sekawan Sehat Seks', content: 'Health education site', tag: 'WordPress' },
+            { link: 'https://sewamobiltimikapapua.com/', title: 'Noufal Rent Car', content: 'Car rental website', tag: 'WordPress' },
+            { link: 'https://syilaparfum.id/', title: 'Syila Parfum', content: 'Perfume private-label (maklon) company', tag: 'WordPress' },
+            { link: 'https://bpkh2.planologi.kehutanan.go.id/', title: 'BPKH Wilayah II Palembang', content: 'Ministry of Forestry regional office', tag: 'WordPress' },
+        ];
+
+        const kalla = [
+            { link: 'https://kallainstitute.ac.id/', title: 'Kalla Institute', content: 'Official campus website', tag: 'WordPress' },
+            { title: 'SIAKAD', content: 'Academic information system', tag: 'Internal' },
+            { title: 'Kemahasiswaan', content: 'Student affairs system', tag: 'Internal' },
+            { link: 'https://register.kallainstitute.ac.id/', title: 'Registrasi PMB', content: 'New student admissions', tag: 'Laravel' },
+            { link: 'https://spmi.kallainstitute.ac.id/', title: 'SPMI', content: 'Internal quality assurance', tag: 'WordPress' },
+            { link: 'https://library.kallainstitute.ac.id/', title: 'Perpustakaan', content: 'Campus library', tag: 'WordPress' },
+            { link: 'https://cdc.kallainstitute.ac.id/', title: 'Career Development Center', content: 'Careers & alumni', tag: 'WordPress' },
+            { link: 'https://jurnal.kallainstitute.ac.id/', title: 'Jurnal', content: 'Academic journal portal', tag: 'OJS' },
+        ];
+
+        const clients = [
+            { link: 'https://delovelyclinic.co.id/', title: 'Delovely' },
+            { link: 'https://www.kanton.co.id/', title: 'Kanton' },
+            { link: 'https://jahitind.com/', title: 'JahitInd' },
+            { link: 'https://layz-motor.com/', title: 'Layz Motor' },
+            { link: 'https://sustainandfair.com', title: 'Sustain & Fair' },
+            { link: 'https://studiolangit.com', title: 'Studio Langit' },
+            { link: 'https://kreditmotorhondatangerang.com', title: 'Honda Ramayana' },
+            { link: 'http://resep-ibu.com/', title: 'Resep Ibu' },
+            { link: 'https://www.padisehatindonesia.com/', title: 'Padi Sehat' },
+            { link: 'https://www.bumantara.co.id/', title: 'Bumantara' },
+            { link: 'https://introduksitalent.com/', title: 'Introduksi Talent' },
+            { link: 'https://lesprivatsmart.com/', title: 'Les Privat' },
+            { link: 'https://waffiofficial.com/', title: 'Waffi Car' },
+        ];
+
+        const domain = url => new URL(url).hostname.replace(/^www\./, '');
+
+        let counter = 0;
+
+        function render(list, target) {
+            const el = document.getElementById(target);
+            el.style.counterReset = 'project ' + counter;
+            counter += list.length;
+            list.forEach(p => {
+                const li = document.createElement('li');
+                li.className = 'project';
+                const row = document.createElement(p.link ? 'a' : 'div');
+                row.className = 'project-row';
+                if (p.link) {
+                    row.href = p.link;
+                    row.target = '_blank';
+                    row.rel = 'noopener';
+                }
+                row.innerHTML = '<span><span class="project-title"></span><span class="project-meta"></span></span>' +
+                    '<span class="tag"></span>';
+                row.querySelector('.project-title').textContent = p.title;
+                if (p.link) {
+                    row.querySelector('.project-title').insertAdjacentHTML('beforeend', '<span class="arrow">↗</span>');
+                }
+                const where = p.link ? domain(p.link) : 'Login-only';
+                row.querySelector('.project-meta').textContent = p.content ? where + ' · ' + p.content : where;
+                row.querySelector('.tag').textContent = p.tag || 'WordPress';
+                li.appendChild(row);
+                el.appendChild(li);
+            });
         }
-    </script>
-    <script>
-        $('#send').click(function () {
-            message = $('#message');
-            var count = message.val().length;
-            console.log(count);
-            if (count > 0) {
-                window.location.href = 'mailto:muh.naufal@hotmail.com?subject=Github Attached&body=' + message.val();
+
+        render(featured, 'projects-featured');
+        render(kalla, 'projects-kalla');
+        render(clients, 'projects-clients');
+        document.getElementById('project-count').textContent = counter + ' projects';
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const message = document.getElementById('message');
+        const hint = document.getElementById('hint');
+
+        document.getElementById('send').addEventListener('click', () => {
+            if (message.value.trim().length > 0) {
+                window.location.href = 'mailto:muh.naufal@hotmail.com?subject=' +
+                    encodeURIComponent('Github Attached') + '&body=' + encodeURIComponent(message.value);
             } else {
-                $(this).html('Please fill some text');
+                message.classList.add('invalid');
+                hint.textContent = 'Please write a message first.';
                 message.focus();
             }
-        })
+        });
 
-        $('#message').keyup(function () {
-            $('#send').html('Send');
+        message.addEventListener('input', () => {
+            message.classList.remove('invalid');
+            hint.textContent = 'Opens in your email app.';
         });
     </script>
-    
 </body>
 
 </html>
